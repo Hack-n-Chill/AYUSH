@@ -1,5 +1,0 @@
-<footer>
-<p class="text-footer">
-    Copyright &copy; 2020 www.TheVirus.org - All rights reserved
-</p>
-</footer>
