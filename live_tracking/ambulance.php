@@ -27,7 +27,7 @@
         function showPosition(position) {
         latitude = position.coords.latitude; 
         longitude = position.coords.longitude;
-        x.innerHTML = longitude + " " + " " + longitude;
+        x.innerHTML = longitude + " " + " " + latitude;
 
 
         // todo
