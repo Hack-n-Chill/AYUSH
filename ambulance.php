@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nearby Hospitals</title>
+    <title>Here is your ambulance</title>
     <script>
         var longitude = 22.5726,latitude =  88.3639;
     </script>
