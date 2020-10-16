@@ -16,7 +16,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
     <link rel="stylesheet" type="text/css" href="Style1.css"/>
     <link rel="stylesheet" href="style.css" class="rel">
     <link rel="stylesheet" href="responsive.css" class="rel">
-    <title>Document</title>
+    <title>Welcome</title>
 </head>
 <body>
   <nav class="navbar h-nav-resp" style="background: black; position: relative;">
