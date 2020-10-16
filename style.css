@@ -385,6 +385,9 @@ footer{
     position: relative;
     bottom: 0px;
   }
+  .information{
+    height: 120vh;
+}
   .main-content{
     flex-wrap: wrap;
     flex-direction: column;
