@@ -98,7 +98,7 @@ if(empty($err))
         <a href="index.html" class="signup-image-link">Home</a>
     </div>
             <div class="signin-form ">
-            <h2 class="form-title">Sign In</h2>
+            <h2 class="form-title" style="color: black">Sign In</h2>
         <form method="POST" class="register-form" id="login-form">
             <div class="form-group">
                 <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
