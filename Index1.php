@@ -23,7 +23,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
     <ul class="nav-list v-class-resp">
         <div class="logo"><img src="logo.png" alt="logo"></div>
         <li><a href="index.html">Home</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="#hospital">Hospital Booking</a></li>
         <li><a href="#Ambulance">Book an Ambulance</a></li>
         <li><a href="logout.php">Logout</a></li>    
@@ -96,8 +96,8 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
       <li><a href="#">Home</a></li><br>
       <li><a href="#hospital">Hospital Booking</a></li><br>
       <li><a href="#ambulance">Book an Ambulance</a></li><br>
-      <li><a href="#blog">Logout</a></li><br>
-      <li><a href="#about">About</a></li><br>
+      <li><a href="logout.php">Logout</a></li><br>
+      <li><a href="about.html">About</a></li><br>
     </div>
               
                   

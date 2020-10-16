@@ -386,8 +386,9 @@ footer{
     bottom: 0px;
   }
   .information{
-    height: 120vh;
-}
+        height: 120vh;
+  }
+  
   .main-content{
     flex-wrap: wrap;
     flex-direction: column;
