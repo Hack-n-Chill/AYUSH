@@ -2,40 +2,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Here's your Ambulance</title>
+    <title>Nearby Hospitals</title>
+    <script>
+        var longitude = 22.5726,latitude =  88.3639;
+    </script>
+    <script src="https://apis.mapmyindia.com/advancedmaps/v1/rrvxcbieg3kvaifvtfciuprc2ho8dmfh/map_load?v=1.3"></script>
+    <style> html, body, #map {margin: 0;padding: 0;width: 96%;height: 98%;} </style>
+
 </head>
 <body>
-    <button onclick="getLocation()">Share your location</button>
-        <div id="output"></div>
+    <div id="map"></div>;
     <script>
-        var x = document.getElementById('output');
-        var longitude,latitude;
-        
-        function getLocation() {
-        if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(showPosition);
-        } else { 
-            x.innerHTML = "Geolocation is not supported by this browser.";
-        }
-        }
-
-        
-
-        function showPosition(position) {
-        latitude = position.coords.latitude; 
-        longitude = position.coords.longitude;
-        x.innerHTML = longitude + " " + " " + latitude;
-
-
-        // todo
-        // send location to server
-
-
-        getLocation();
-        }
+        var map=new MapmyIndia.Map("map",{ center:[longitude, latitude],zoomControl: true,hybrid:true });
+        L.marker([longitude, latitude]).addTo(map).bindPopup("currentLocation");
     </script>
 </body>
 </html>
