@@ -24,7 +24,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
         <div class="logo"><img src="logo.png" alt="logo"></div>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="patient.php">Nearby Hospitals</a></li>
+        <li><a href="nearby_hospital.html">Nearby Hospitals</a></li>
         <li><a href="ambulance.php">Book an Ambulance</a></li>
         <li><a href="logout.php">Logout</a></li>    
     </ul>
@@ -94,7 +94,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
             <h2>Quick Links</h2>
     <div class="content">
       <li><a href="#">Home</a></li><br>
-      <li><a href="patient.php">Nearby Hospitals</a></li><br>
+      <li><a href="nearby_hospital.html">Nearby Hospitals</a></li><br>
       <li><a href="ambulance.php">Book an Ambulance</a></li><br>
       <li><a href="logout.php">Logout</a></li><br>
       <li><a href="about.html">About</a></li><br>
