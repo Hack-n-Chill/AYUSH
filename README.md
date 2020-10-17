@@ -2,4 +2,7 @@ Due to the growth of the corona pandemic in the country having the correct iunfo
 
 Now this was the main idea and the ideal case situation but shortage of time we could'nt complete the project but we have tried our best and this is what we have made till now.
 
+The link to the website:
+https://sociallydistanced.000webhostapp.com/
+
 ![TheVirus.org website](https://github.com/Hack-n-Chill/AYUSH/blob/main/Corona-website.jpg)
