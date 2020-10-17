@@ -28,13 +28,8 @@
         function showPosition(position) {
         latitude = position.coords.latitude; 
         longitude = position.coords.longitude;
-<<<<<<< Updated upstream:patient.php
-        x.innerHTML = longitude + " " + " " + latitude;
-
-=======
         // x.innerHTML = longitude + " " + " " + longitude;
         x.innerHTML = "Now sending your coordinates";
->>>>>>> Stashed changes:live_tracking/ambulance.php
 
         // todo
         // send location to server
