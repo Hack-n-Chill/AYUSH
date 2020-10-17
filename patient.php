@@ -33,7 +33,7 @@
 
         // todo
         // send location to server
-
+        
 
         getLocation();
         }
