@@ -13,7 +13,7 @@
 
 </head>
 <body>
-    <div id="map"></div>;
+    <div id="map"></div>
     <script>
         var map=new MapmyIndia.Map("map",{ center:[longitude, latitude],zoomControl: true,hybrid:true });
         L.marker([longitude, latitude]).addTo(map).bindPopup("currentLocation");
