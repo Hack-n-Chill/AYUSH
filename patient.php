@@ -11,12 +11,12 @@
 <body>
     <button onclick="getLocation()">Share your location</button>
         <div id="output"></div>
-        <div class="card a"><i class="fa fa-tachometer"></i><h5>Active Cases</h5><span id="active"></span></div>
-      <div class="card ca"><i class="fa fa-th-list"></i><h5>Total Cases</h5><span id="cases"></span></div>
-      <div class="card cr"><i class="fa fa-times-circle"></i><h5>Critical Cases</h5><span id="critical"></span></div>
-      <div class="card d"><i class="fa fa-times"></i><h5>Total Deaths</h5><span id="death"></span></div>
-      <div class="card r"><i class="fa fa-check-square-o"></i><h5>Recovered Cases</h5><span id="recovered"></span></div>
-      <div class="card t"><i class="fa fa-eye"></i><h5>Total Testes Done</h5><span id="tests"></span></div>
+        <div class="card a"><i class="fa fa-tachometer"></i><h5>Total no of empty beds available - 379</h5><span id="active"></span></div>
+      <div class="card ca"><i class="fa fa-th-list"></i><h5>Total no of empty beds available - 54</h5><span id="cases"></span></div>
+      <div class="card cr"><i class="fa fa-times-circle"></i><h5>Total no of empty beds available - 82</h5><span id="critical"></span></div>
+      <div class="card d"><i class="fa fa-times"></i><h5>Total no of empty beds available -11</h5><span id="death"></span></div>
+      <div class="card r"><i class="fa fa-check-square-o"></i><h5>Total no of empty beds available - 12</h5><span id="recovered"></span></div>
+      <div class="card t"><i class="fa fa-eye"></i><h5>Total no of empty beds available - 18</h5><span id="tests"></span></div>
     </div>
     <script>
         var x = document.getElementById('output');
