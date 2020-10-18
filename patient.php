@@ -55,7 +55,7 @@
     document.getElementById("critical").innerHTML = data.result[3].name;
     document.getElementById("death").innerHTML = data.result[4].name;
     document.getElementById("recovered").innerHTML = data.result[5].name;
-    document.getElementById("tests").innerHTML = data.result[6].name;
+    document.getElementById("tests").innerHTML =" ";
     // document.getElementById("flag").src = data.countryInfo.flag;
   });
         }
